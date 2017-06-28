@@ -34,6 +34,7 @@ group :development do
   gem 'capistrano-rails', require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rvm'
+  gem 'capistrano-passenger', '>= 0.1.1'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
